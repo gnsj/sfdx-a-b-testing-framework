@@ -1,3 +1,54 @@
+# A/B Testing Framework
+This guide helps to create a AB Testing framework in Salesforce.
+
+## What is A/B Testing ?
+It is a experiment with two variantes (A and B) to compare these two versions and determine which of the two is more effective.
+
+## What types of problems could A/B testing solving ?
+- Solve visitor pain points
+- Get better ROI from existing traffic
+- Reduce bounce rate
+- Make low-risk modifications
+- Achieve statistically significant results
+- Profitably redesign your website
+
+## How does it work ?
+  ### Step1: Research
+  Understand how your product is currently performing, how many users are coming onto the site, which pages drive the most traffic, what are the conversions goals of your page.
+
+  Heatmap tools are a great tool to determine where users are spending the most time on, their scrolling behavior.
+    
+  Another popular tool is website user surveys that can often highlight issue which may be missed in aggregate data.
+
+  ###Step2: Observation / Hypothesis
+  Looking through the data collected in your research phase and create hypothesis to test in the new A/B test.
+
+  ###Step3: Variation Creation
+  A variation is another version of your existing version with changes that you want to test. For example, are there enough people filling forms ? Your hypothesis is that your form have too many fields and ask for personal information, you can try a variation with a shorter form, less fields and omitting fields which ask for personal information.
+
+  ###Step4: Testing
+  There are many kinds os testing for A/B Testing, follow 3 below:
+  - Multivariate Testing
+  - Split URL Testing
+  - Multipage Testing
+
+
+## Common mistakes in A/B Testing
+- Not planing your optimization roadmap
+  Hypothesis must be formulated before conducting a test and all next steps depend on in.
+
+- Testing too many elements together
+  Testing too many elements in the same time makes it difficult to pinpoint which changes influenced the success or failure
+
+- Ignoring statistical significance    
+  To have an A/B testing succeed of failed, your test should be guided by statistically significant data.
+
+- Failing to follow an iterative process
+  To improve the chances of your next test succeeding, you should draw insights from your last tests while planning and deploying your next test.
+
+
+
+<!-- 
 # Salesforce App
 
 This guide helps Salesforce developers who are new to Visual Studio Code go from zero to a deployed app using Salesforce Extensions for VS Code and Salesforce CLI.
@@ -55,4 +106,4 @@ For details about developing against orgs that don’t have source tracking, see
 
 Don’t deploy your code to production directly from Visual Studio Code. The deploy and retrieve commands do not support transactional operations, which means that a deployment can fail in a partial state. Also, the deploy and retrieve commands don’t run the tests needed for production deployments. The push and pull commands are disabled for orgs that don’t have source tracking, including production orgs.
 
-Deploy your changes to production using [packaging](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_dev2gp.htm) or by [converting your source](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference_force_source.htm#cli_reference_convert) into metadata format and using the [metadata deploy command](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference_force_mdapi.htm#cli_reference_deploy).
+Deploy your changes to production using [packaging](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_dev2gp.htm) or by [converting your source](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference_force_source.htm#cli_reference_convert) into metadata format and using the [metadata deploy command](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference_force_mdapi.htm#cli_reference_deploy). -->
