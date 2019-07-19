@@ -20,13 +20,13 @@ It is a experiment with two variantes (A and B) to compare these two versions an
     
   Another popular tool is website user surveys that can often highlight issue which may be missed in aggregate data.
 
-  ###Step2: Observation / Hypothesis
+  ### Step2: Observation / Hypothesis
   Looking through the data collected in your research phase and create hypothesis to test in the new A/B test.
 
-  ###Step3: Variation Creation
+  ### Step3: Variation Creation
   A variation is another version of your existing version with changes that you want to test. For example, are there enough people filling forms ? Your hypothesis is that your form have too many fields and ask for personal information, you can try a variation with a shorter form, less fields and omitting fields which ask for personal information.
 
-  ###Step4: Testing
+  ### Step4: Testing
   There are many kinds os testing for A/B Testing, follow 3 below:
   - Multivariate Testing
   - Split URL Testing
