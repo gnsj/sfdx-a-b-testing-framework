@@ -1,50 +1,54 @@
 # A/B Testing Framework
-This guide helps to create a AB Testing framework in Salesforce.
+  This guide helps to create a AB Testing framework in Salesforce.
 
-## What is A/B Testing ?
-It is a experiment with two variantes (A and B) to compare these two versions and determine which of the two is more effective.
+  ## What is A/B Testing ?
+  It is a experiment with two variantes (A and B) to compare these two versions and determine which of the two is more effective.
 
-## What types of problems could A/B testing solving ?
-- Solve visitor pain points
-- Get better ROI from existing traffic
-- Reduce bounce rate
-- Make low-risk modifications
-- Achieve statistically significant results
-- Profitably redesign your website
+  ## What types of problems could A/B testing solving ?
+  - Solve visitor pain points
+  - Get better ROI from existing traffic
+  - Reduce bounce rate
+  - Make low-risk modifications
+  - Achieve statistically significant results
+  - Profitably redesign your website
 
-## How does it work ?
-  ### Step1: Research
-  Understand how your product is currently performing, how many users are coming onto the site, which pages drive the most traffic, what are the conversions goals of your page.
+  ## How does it work ?
+    ### Step1: Research
+    Understand how your product is currently performing, how many users are coming onto the site, which pages drive the most traffic, what are the conversions goals of your page.
 
-  Heatmap tools are a great tool to determine where users are spending the most time on, their scrolling behavior.
-    
-  Another popular tool is website user surveys that can often highlight issue which may be missed in aggregate data.
+    Heatmap tools are a great tool to determine where users are spending the most time on, their scrolling behavior.
+      
+    Another popular tool is website user surveys that can often highlight issue which may be missed in aggregate data.
 
-  ### Step2: Observation / Hypothesis
-  Looking through the data collected in your research phase and create hypothesis to test in the new A/B test.
+    ### Step2: Observation / Hypothesis
+    Looking through the data collected in your research phase and create hypothesis to test in the new A/B test.
 
-  ### Step3: Variation Creation
-  A variation is another version of your existing version with changes that you want to test. For example, are there enough people filling forms ? Your hypothesis is that your form have too many fields and ask for personal information, you can try a variation with a shorter form, less fields and omitting fields which ask for personal information.
+    ### Step3: Variation Creation
+    A variation is another version of your existing version with changes that you want to test. For example, are there enough people filling forms ? Your hypothesis is that your form have too many fields and ask for personal information, you can try a variation with a shorter form, less fields and omitting fields which ask for personal information.
 
-  ### Step4: Testing
-  There are many kinds os testing for A/B Testing, follow 3 below:
-  - Multivariate Testing
-  - Split URL Testing
-  - Multipage Testing
+    ### Step4: Testing
+    There are many kinds os testing for A/B Testing, follow 3 below:
+    - Multivariate Testing
+    - Split URL Testing
+    - Multipage Testing
 
 
-## Common mistakes in A/B Testing
-- Not planing your optimization roadmap
-  Hypothesis must be formulated before conducting a test and all next steps depend on in.
+  ## Common mistakes in A/B Testing
+    - Not planing your optimization roadmap
+      Hypothesis must be formulated before conducting a test and all next steps depend on in.
 
-- Testing too many elements together
-  Testing too many elements in the same time makes it difficult to pinpoint which changes influenced the success or failure
+    - Testing too many elements together
+      Testing too many elements in the same time makes it difficult to pinpoint which changes influenced the success or failure
 
-- Ignoring statistical significance    
-  To have an A/B testing succeed of failed, your test should be guided by statistically significant data.
+    - Ignoring statistical significance    
+      To have an A/B testing succeed of failed, your test should be guided by statistically significant data.
 
-- Failing to follow an iterative process
-  To improve the chances of your next test succeeding, you should draw insights from your last tests while planning and deploying your next test.
+    - Failing to follow an iterative process
+      To improve the chances of your next test succeeding, you should draw insights from your last tests while planning and deploying your next test.
+
+  ## How to use it in Salesforce
+
+  ###
 
 
 
