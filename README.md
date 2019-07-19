@@ -49,7 +49,9 @@ It is a experiment with two variantes (A and B) to compare these two versions an
 ## How to use it in Salesforce
 
   ###Custom Metadata
+
   ###Apex Trigger
+  
   ###Test Class
 
 
