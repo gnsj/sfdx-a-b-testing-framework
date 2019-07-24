@@ -46,15 +46,13 @@ It is a experiment with two variantes (A and B) to compare these two versions an
   - Failing to follow an iterative process
     To improve the chances of your next test succeeding, you should draw insights from your last tests while planning and deploying your next test.
 
-## How to use it in Salesforce
+## How to use it ?
 
-  ###Custom Metadata
+  ### Custom Metadata
+  There's a Custom Metadata called "AB Testing Configuration" where you can set all AB Testing. 
 
-  ###Apex Trigger
-  
-  ###Test Class
-
-
+  ### Apex Trigger
+  You should create a trigger on the selected object where you want to have the AB Testing.
 
 <!-- 
 # Salesforce App
